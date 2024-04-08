@@ -1,0 +1,38 @@
+.contenedor {
+	display: flex;
+	width: 100vw;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.contenedor div {
+	display: flex;
+	border: 2px solid var(--pumpkin);
+	border-radius: 15px;
+	width: 500px;
+	height: 300px;
+	margin: 3%;
+}
+
+form {
+	margin: 3% 0 1%;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+}
+
+h6 {
+	display: inline-flex;
+	vertical-align: top;
+	width: 100%;
+}
+main > p {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 2em;
+	letter-spacing: 2px;
+}
+p {
+	margin: 3%;
+	text-align: justify;
+}

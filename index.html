@@ -1,155 +1,384 @@
 <!DOCTYPE html>
 <html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<script
+			src="https://kit.fontawesome.com/1aa5409982.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="style.css" />
+		<title>🧁 Pagina de tortas 🍰</title>
+	</head>
+	<body>
+		<img
+			src="assets/image/frame-food.jpg"
+			alt="fondo"
+			class="img_fondo"
+		/>
+		<header>
+			<nav>
+				<img
+					src="./assets/image/torta_color.svg"
+					alt="Logo de tortas"
+				/>
+				<ul>
+					<li><a href="">La pasteleria</a></li>
+					<li><a href="">Tienda</a></li>
+					<li><a href="">Servicios</a></li>
+					<li><a href="">Cotizaciones</a></li>
+				</ul>
+			</nav>
+			<h1>Bienvenidos a las TORTAS</h1>
+		</header>
+		<main>
+			<form
+				action="paginacontortas"
+				method="post"
+				target="_blank"
+			>
+				<input
+					type="text"
+					placeholder="Buscar tipo de torta"
+					title="Buscador"
+				/>
+				<button type="button">✓ Buscar</button>
+			</form>
 
-<head> 
-  <title> Primer encabezado Poronga </title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Explora&display=swap" rel="stylesheet">
-  <style>
-    footer {
-      color: brown; font-family: 'Times New Roman', Times, serif;
-    }
-  </style>
-  <link href="style.css" rel="stylesheet">
-</head>
-
-<body>
-  <h1>PRIMER ENCABEZADO --Hola Mundo--</h1>
-  <p>Aca van los parrafos</p>
-  <main>
-    <h3>Encabezado del main</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      <a href="https://code.visualstudio.com/docs/getstarted/settings" target="_blank" rel="noopener noreferrer">
-        sollicitudin vehicula eros id accumsan.</a>
-      Pellentesque habitant morbi tristique senectus et netus et malesuada
-      fames ac turpis egestas.
-    </p>
-
-    <p>
-      Maecenas in metus vitae nibh posuere placerat at eget ante. Aliquam
-      maximus porttitor sapien. Proin tincidunt molestie placerat. Donec
-      maximus ante dui, sit amet ullamcorper turpis eleifend at. Proin at
-      congue lacus, elementum pharetra urna.
-    </p>
-    <a href="#Narra" alt="narracion">Narrativos</a>
-    <a href="#2">Descriotivos</a>
-    <a href="#3">Argumentivos</a>
-    <a href="#4">Expositivos</a>
-    <br>
-
-    <img src="https://www.clara.es/medio/2022/10/03/imagenes-de-buenos-dias-bonitas_f2be652f_1080x1080.png"
-      alt="Frase de Buenos dias: Disfrutando vacaciones" class="playa" />
-
-    <!-- Linea de comentarios  ---------->
-
-    <p>
-      Nulla et dignissim arcu, non laoreet ante. Ut bibendum nulla lacinia,
-      sollicitudin elit ut, tempor neque. Nam pellentesque feugiat neque sit
-      amet blandit. Maecenas finibus eros mi, sed fringilla augue commodo id.
-      Mauris molestie dolor fringilla sodales tincidunt.
-    </p>
-    <a href="/Users/alexisjankowicz/Proyectos" rel="noreferrer noopener" target="_blank"><img src="simpsons.jpg"
-        alt="Los simpsons caminando como The Beatles" class="simpsons"/></a>
-
-    <hr>
-    <div> <!-- DIV contenedor para edicion en CSS -->
-      <h4>Enlaces internos continua abajo</h4>
-      <h5 id="Narra">Narrativos</h5>
-      <p class="parrafo" lang="es">   <!-- 1ero CLASS como prioridad, se le asigna nombre para darle atributos-->
-        Llamado también cronológico, está formado por una secuencia de
-        afirmaciones que no requieren garantía o demostración de sus
-        habilidades. Es típico de una noticia, una crónica o un cuento en el que
-        se expongan hechos en orden cronológico. Pueden aparecer conectores de
-        tipo temporal como después, luego, hace un mes, para comenzar, a
-        continuación, finalmente, pero la exposición de la secuencia de hechos
-        depende más a menudo de su posición en el texto.
-      </p>
-      <h5 id="2">Descriptivos</h5>
-      <p class="parrafo_2" lang="es">
-        Un párrafo descriptivo potencia el uso de la palabra y presenta una
-        imagen sensorial ante los lectores-receptores. A través de un párrafo
-        descriptivo, un autor utiliza todos sus sentidos para delinear los
-        atributos de los objetos y sucesos percibidos. Mientras más detalle
-        aporta el autor en su delineamiento de lo percibido, mejor será la
-        imagen del lector-receptor sobre lo descrito.
-      </p>
-      <h5 id="3">Argumentativos</h5>
-      <p class="parrafo" lang="es">
-        Tiene como objetivo expresar opiniones o
-        <em> --em-- PARA CURSIVA</em> con el fin de persuadir a un receptor. La
-        finalidad del autor puede ser probando o demostrando una idea (o tesis),
-        refutar la contraria, o bien, persuadir o disuadir al receptor sobre
-        determinados comportamientos, hechos o ideas. Es cuando hay una
-        discusión entre dos o varias personas sobre alguna idea o hecho.
-      </p>
-      <h5 id="4">Expositivos</h5>
-      <p class="parrafo_2" lang="es">
-        Sirve para explicar o desarrollar más
-        <strong> --STRONG-- RESALTA EN NEGRITA </strong> el tema que se está
-        presentando. Estos suelen ser más extensos y abundantes, dependiendo de
-        la complejidad del tema o del concepto que se esté explicando.
-      </p>
-
-      <hr />
-
-      <h3>A continuasion listas desoredenadas</h3>
-      <ul>
-        <li>algo</li>
-        <li>algo mas</li>
-        <li><s>y mas otro</s></li>
-      </ul>
-
-      <h3>A continuacion listas ordenadas --estan enumeradas--</h3>
-      <ol>
-        <li>primero este</li>
-        <li>segundo este</li>
-        <li>este ultimo y tercero</li>
-      </ol>
-  </div>
-    <hr>
-    <br>
-    <br>
-
-    <form action="respuesta">
-      <!-- REQUIRED para que el campo tenga algo obligatorio al enviar-->
-      <input type="text" placeholder="placeholder para identificar que escribir" required />
-      <button type="submit">ENVIAR !!</button>
-    </form>
-
-    <br>
-    <!-- br agrega un BRAKE entre opciones/parrafos/textos/etc.-->
-    <br>
-
-    <form action="redio-click"></form>
-    <label for="primera">
-      <input id="primera" type="radio" name="primera-segunda" value="primera"/> Primera opcion
-    </label><br>
-
-    <br>
-
-    <label for="segunda">
-      <input id="segunda" type="radio" name="primera-segunda" value="segunda"/> Segunda opcion
-    </label><br>
-
-    <!-- Casilla de verificacion -->
-
-    <br>
-    <label for="uno">
-      <input type="checkbox" id="uno" name="verificacion" checked value="uno"/> opcion 1
-    </label>
-    <!-- checked para dejar marcada la opcion por defecto-->
-    <label for="dos">
-      <input type="checkbox" id="dos" name="verificacion" value="dos"/> opcion 2
-    </label>
-    <label for="tres">
-      <input type="checkbox" id="tres" name="verificacion" value="tres"/> opcion 3
-    </label>
-  </main>
-  <footer> 
-    <p> <small> autor soy yo --- y footer es para pie de pagina despues de MAIN <a href="https://www.google.com.ar"> www.google.com.ar </a> </small></p>
-  </footer>
-</body>
-
+			<hr />
+			<p>
+				Lorem, ipsum dolor sit amet consectetur
+				adipisicing elit. Laboriosam eos officia
+				excepturi error nostrum itaque ducimus adipisci
+				fuga? Eius amet laudantium facilis distinctio
+				nihil cupiditate quibusdam, quod quisquam cumque
+				ex! <br />
+				<br />
+				Architecto optio officia soluta voluptatem
+				cupiditate mollitia ipsam similique repellat!
+				Molestias deserunt quaerat, praesentium maiores
+				ipsum nulla distinctio amet aut nemo vero, magni
+				est cum reiciendis! Sunt labore cumque nemo!
+			</p>
+			<hr />
+			<div class="contenedor">
+				<div>
+					<img
+						src="assets/image/a-sweet.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/image/moon.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/image/artistic.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/image/illustrated.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/image/cupcake.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/image/artistic.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/image/cupcake.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/image/artistic.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/image/moon.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/image/artistic.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/image/moon.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/image/artistic.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/image/moon.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/image/cupcake.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/image/a-sweet.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/image/artistic.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/image/a-sweet.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+				<div>
+					<img
+						src="assets/image/cupcake.jpg"
+						alt=""
+					/>
+					<h6>Nombre: Torta xx</h6>
+					<p>
+						Lorem ipsum dolor sit amet
+						consectetur adipisicing elit.
+						Dolore mollitia iste voluptas
+						voluptatum autem accusamus
+						doloremque ad, eos voluptate,
+						atque sit ex natus! Iure, nisi
+						at? Beatae ducimus quasi dolore.
+					</p>
+				</div>
+			</div>
+			<hr />
+		</main>
+		<footer>
+			<a href="https://www.instagram.com/kekatortas/?hl=es"
+				><i
+					class="fa-brands fa-square-instagram fa-beat-fade"
+				></i
+			></a>
+			<a
+				href="https://www.facebook.com/groups/1066583647040443/"
+				><i
+					class="fa-brands fa-square-facebook fa-beat-fade"
+				></i
+			></a>
+			<a
+				href="https://api.whatsapp.com/send?phone=+541551234567&text=Hola%20me%20interesa%20saber%20sobre%20productos"
+				><i
+					class="fa-brands fa-square-whatsapp fa-beat-fade"
+				></i
+			></a>
+			<a href="mailto:m.bluth@example.com"
+				><i
+					class="fa-solid fa-envelope fa-beat-fade"
+				></i
+			></a>
+		</footer>
+	</body>
 </html>
